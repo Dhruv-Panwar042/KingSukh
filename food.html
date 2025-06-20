@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Dining</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav id="navbar">
+            <div class="logo">Kingsukh</div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-menu-toggle">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Room Booking</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Food & Dining</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="page-header">
+            <h1>Food & Dining</h1>
+            <p>Enjoy the authentic flavours of Ayodhya at our guest house</p>
+        </header>
+
+        <section class="room-list">
+            <section class="testimonials">
+                <h2>What Our Guests Say</h2>
+                <div class="carousel-container">
+                    <div class="testimonial-carousel">
+                        <div class="testimonial-slide active">
+                            <p>"The Litti Chokha was absolutely authentic and took me back to my childhood! The spices,
+                                the texture — everything was just perfect. The food at Kingsukh Guest House felt like
+                                home-cooked comfort with a gourmet touch."</p>
+                            <h4>— Ravi Mehta, Delhi</h4>
+                        </div>
+                        <div class="testimonial-slide">
+                            <p>"I wasn’t expecting such delicious traditional meals at a guest house! The kachori-sabzi
+                                combo was the best I’ve had in a long time. Don’t skip the sweets — they’re a must-try!"
+                            </p>
+                            <h4>— Sonal Verma, Kolkata</h4>
+                        </div>
+                        <div class="testimonial-slide">
+                            <p>"The samosa and chai were the perfect evening snack after a day of sightseeing. Freshly
+                                made, served hot, and full of flavor. It added a very local and warm touch to our stay."
+                            </p>
+                            <h4>— Aman Kapoor, Mumbai</h4>
+                        </div>
+
+                        <!-- Arrow buttons -->
+                        <button class="arrow left-arrow">&#10094;</button>
+                        <button class="arrow right-arrow">&#10095;</button>
+                    </div>
+
+                    <div class="carousel-dots">
+                        <span class="dot active-dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="room-card">
+                <img src="Assets/Images/Litthi.jpeg" alt="Deluxe Room">
+                <div class="room-info">
+                    <h2>Litti Chokha</h2>
+                    <p>Tarditional Bihari delicacy served with spiced mashed potatoes and roasted brinjal.</p>
+
+                    <div class="price">₹120</div>
+                    <div class="reaction-section">
+                        <button class="like-btn"><i class="fas fa-thumbs-up"></i> Like</button>
+                        <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Dislike</button>
+                        <div class="rating">
+                            <span>Rate: </span>
+                            <i class="fas fa-star" data-value="1"></i>
+                            <i class="fas fa-star" data-value="2"></i>
+                            <i class="fas fa-star" data-value="3"></i>
+                            <i class="fas fa-star" data-value="4"></i>
+                            <i class="fas fa-star" data-value="5"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="room-card">
+                <img src="Assets/Images/Samosa.jpeg" alt="Family Room">
+                <div class="room-info">
+                    <h2>Hot Samosa & Chai</h2>
+                    <p>Crispy samosa filled with spicy potatoes , served with piping hot masala chai.</p>
+
+                    <div class="price">₹60</div>
+                    <div class="reaction-section">
+                        <button class="like-btn"><i class="fas fa-thumbs-up"></i> Like</button>
+                        <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Dislike</button>
+                        <div class="rating">
+                            <span>Rate: </span>
+                            <i class="fas fa-star" data-value="1"></i>
+                            <i class="fas fa-star" data-value="2"></i>
+                            <i class="fas fa-star" data-value="3"></i>
+                            <i class="fas fa-star" data-value="4"></i>
+                            <i class="fas fa-star" data-value="5"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="room-card">
+                <img src="Assets/Images/Kachori.jpeg" alt="Non-AC Room">
+                <div class="room-info">
+                    <h2>Kachori Sabzi</h2>
+                    <p>Golden fried kachori served with spicy potato curry - a breakfast favourite.</p>
+
+                    <div class="price">₹90</div>
+                    <div class="reaction-section">
+                        <button class="like-btn"><i class="fas fa-thumbs-up"></i> Like</button>
+                        <button class="dislike-btn"><i class="fas fa-thumbs-down"></i> Dislike</button>
+                        <div class="rating">
+                            <span>Rate: </span>
+                            <i class="fas fa-star" data-value="1"></i>
+                            <i class="fas fa-star" data-value="2"></i>
+                            <i class="fas fa-star" data-value="3"></i>
+                            <i class="fas fa-star" data-value="4"></i>
+                            <i class="fas fa-star" data-value="5"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Village + Post - Ballavpur , Shantiniketan , Birbhum , WB - 731236</p>
+                <P>Phone: +91 98001 22444</P>
+                <p>Eamil: kingsukhguesthouse@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">About</a></p>
+                <p><a href="#">Services</a></p>
+                <p><a href="#">Contact</a></p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 King Sukh Guest House. All rights reserved.
+            </div>
+            <div class="footer-section">
+                <h3>Location</h3>
+                <div class="map-conatiner">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5017351225647!2d86.85721547510981!3d23.586332378782714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1705088034844!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-refferrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const slides = document.querySelectorAll('.testimonial-slide');
+            const dots = document.querySelectorAll('.dot');
+            let currentIndex = 0;
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.remove('active');
+                    dots[i].classList.remove('active-dot');
+                });
+                slides[index].classList.add('active');
+                dots[index].classList.add('active-dot');
+            }
+
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                showSlide(currentIndex);
+            }
+
+            dots.forEach((dot, i) => {
+                dot.addEventListener('click', () => {
+                    currentIndex = i;
+                    showSlide(currentIndex);
+                });
+            });
+
+            setInterval(nextSlide, 4000); // change every 4s
+
+            const leftArrow = document.querySelector('.left-arrow');
+            const rightArrow = document.querySelector('.right-arrow');
+
+            leftArrow.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+                showSlide(currentIndex);
+            });
+
+            rightArrow.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % slides.length;
+                showSlide(currentIndex);
+            });
+        </script>
+    </div>
+
+
+</body>
+
+</html>
